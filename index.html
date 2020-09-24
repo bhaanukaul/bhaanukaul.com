@@ -1,0 +1,42 @@
+---
+layout: home
+---
+    <h2>Projects</h2>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header">
+          Homelab
+          <span class="fa fa-angle-down badge"></span></div>
+        <div class="collapsible-body">
+          <div class="posts">
+            {% for post in site.posts %}
+            <article class="post">
+
+              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+              <div class="entry">
+                {{ post.excerpt }}
+              </div>
+
+              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+            </article>
+            {% endfor %}
+          </div>
+
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header">
+          Unity
+          <span class="fa fa-angle-down badge"></span></div>
+        <div class="collapsible-body">
+          <p>
+          <h1>//TODO <p>CONTENT</p>
+          </h1>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </body>
+
+</html>
