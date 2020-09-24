@@ -336,6 +336,11 @@ footer {
   border-radius: 50%;
 }
 
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
 .highlight {
   background-color: #efefef;
   padding: 7px 7px 7px 10px;
